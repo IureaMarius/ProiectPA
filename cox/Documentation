@@ -20,3 +20,10 @@ Meaning of parameters :
 
     10. oldpeak - ST depression induced by exercise relative to rest
 
+I used the deeplearning4j libarary in this project, and I created a neural net consisting of an input layer with 10 nodes, 2 hidden layers with 128 nodes and one output layer with 2 nodes,
+the ratio between the 2 outputs representing the likelyhood of having a heart disease.
+
+I used the RELU activation function to avoid vanishing gradient problems, and changed the variables of the neural net configuration until I got fairly accurate predictions.
+
+The user interface was built using JavaFX.
+
